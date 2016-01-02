@@ -1,0 +1,7 @@
+php_flag display_errors on 
+php_value error_reporting 7
+php_flag register_globals on
+AddType application/x-httpd-php .php .htm .html
+AddDefaultCharset utf-8
+RewriteCond %{HTTP_HOST} ^instantcms\.ru$ [NC]
+RewriteRule ^(.*)$ http://www.instantcms.ru/$1 [R=301,L]

@@ -1,0 +1,73 @@
+body {
+ background: linear-gradient(to top, #184150, #1B2838);
+background-size: 100% 100%;
+color:#BBD4DF;
+}
+
+
+    A:link {  color:#fff;}
+    A:visited {  color:#fff;}
+    A:active { ; color:#fff;}
+    A:hover {text-decoration: none; color:#fff;}
+@media screen and (min-width: 1000px) {
+.container {
+background: #28455B;
+max-width: 1000px;
+width:100%;
+margin: 30px auto;
+margin-bottom: 0px;
+border-radius: 15px 15px 0px 0px;
+/*box-shadow:#565656 20px 20px 12px -6px;*/
+}
+}
+.container {
+background: #28455B;
+width:100%;
+margin: 30px auto;
+margin-bottom: 0px;
+border-radius: 15px 15px 0px 0px;
+/*box-shadow:#565656 20px 20px 12px -6px;*/
+}
+.head {
+ background: linear-gradient(to top, #184150, #1B2838);
+    background-image: url('img/dota_logo.png');
+    background-size: 100% 100%;
+    margin: 30px auto;
+    max-width:1000px;
+    min-height:200px;
+    max-height:200px;
+}
+
+.page {
+margin: 40px;
+background-image: url('img/14.png');
+background-size: 100% 100%;
+border-radius:15px;
+}
+.page2 {
+margin-left: 40px;
+background-image: url('img/14.png');
+background-size: 100% 100%;
+border-radius:15px;
+}
+
+.footer{
+    background: #1B2838; /* old browsers */
+     border-radius:0px 0px 15px 15px;
+    
+    text-align:center;
+    color:#C6D4DF;
+}
+
+
+.hello{
+    background-image: url('http://img.cstr1ke-servers.ru/images/dota2logo.png');
+    background-size: 100% 100%;
+    margin: 1% auto;
+    max-width:600px;
+    min-height:250px;
+}
+
+
+
+/*--------------------------------------------*/
